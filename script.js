@@ -14,12 +14,4 @@ function togglebtn(){
     mo.classList.toggle('back');
     re.classList.toggle('back');
     af.classList.toggle('back');
-    if(document.getElementById('menu').src=='images/menu.png'){
-        document.getElementById('menu').src=='images/download.svg';
-    }
-    else{
-        document.getElementById('menu').src=='images/menu.png';
-    }
-   
-    
 }
